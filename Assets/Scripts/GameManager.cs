@@ -7,6 +7,10 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Gm = null;
 
+    public bool ColorActivated = false;
+    public bool ReadActivated = false;
+    public bool SoundActivated = false;
+
     void Awake()
     {
         if (Gm == null)
