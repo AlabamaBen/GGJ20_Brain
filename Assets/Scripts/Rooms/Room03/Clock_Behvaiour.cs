@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Clock_Behvaiour : MonoBehaviour
 {
-    public GameObject Pick;
+    public GameObject Pick01;
+    public GameObject Pick02;
+
     private List<GameObject> Platefroms; 
 
     Plateform_Color current_color; 
@@ -36,7 +38,10 @@ public class Clock_Behvaiour : MonoBehaviour
         current_color = (Plateform_Color)((int)(current_color + 1) % 3) ;
 
 
-        Pick.transform.rotation =  Quaternion.Euler(0f, 0f, (360 / 3) * -((int)current_color));
+        Pick01.transform.rotation =  Quaternion.Euler(0f, 0f, (360 / 3) * -((int)current_color));
+
+        Pick02.transform.rotation = Quaternion.Euler(0f, 0f, (360 / 3) * -((int)current_color));
+
 
 
         foreach (GameObject plateform in Platefroms)
