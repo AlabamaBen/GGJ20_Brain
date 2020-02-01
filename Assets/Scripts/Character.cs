@@ -43,6 +43,8 @@ public class Character : MonoBehaviour
     private float groundRadius;
     [SerializeField]
     private LayerMask groundMask;
+    [SerializeField]
+    private float airControl = 0.2f;
 
     private bool isGrounded;
     private bool canJump;
@@ -73,7 +75,7 @@ public class Character : MonoBehaviour
         isGrounded = IsGrounded(rb);
 
         // v = HandleMovement(horizontal, v);
-        v = HandleMovementAcceleration(horizontal, v);
+        v = HandleMovementAcceleration(horizontal, v, isGrounded);
 
         if (v.y < -0.2)
         {
@@ -106,30 +108,30 @@ public class Character : MonoBehaviour
         }
     }
 
-    public Vector2 HandleMovement(float horizontal, Vector2 v)
-    {
-        v.x = horizontal * movementSpeed;
-        //myAnimator.SetFloat("PlayerSpeed", Mathf.Abs(horizontal));
-        return v;
-    }
-
-    public Vector2 HandleMovementAcceleration(float horizontal, Vector2 v)
+    public Vector2 HandleMovementAcceleration(float horizontal, Vector2 v, bool isGrounded)
     {
         if (horizontal != 0)
         {
+            float control = 1;
+            //Less control in the air
+            if (!isGrounded)
+            {
+                control = airControl;
+            }
+
             if (Mathf.Abs(v.x) < maxSpeed)
             {
-                v.x += horizontal * movementSpeed;
+                v.x += horizontal * movementSpeed * control;
 
             }
             else
             {
-                v.x = horizontal * maxSpeed;
+                v.x = horizontal * maxSpeed * control;
             }
         }
         else
         {
-            v.x = horizontal;
+            v.x = 0;
         }
         return v;
     }
