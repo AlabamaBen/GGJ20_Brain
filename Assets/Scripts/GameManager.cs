@@ -31,14 +31,14 @@ public class GameManager : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Escape))
         {
             //Exit the game when it is the hub
-            if (SceneManager.GetActiveScene().name == "Menu")
+            if (SceneManager.GetActiveScene().name == "Game_Menu")
             {
                 Application.Quit();
             }
             //Exit the current level
             else
             {
-                //SceneManager.LoadScene("Menu");
+                SceneManager.LoadScene("Game_Menu");
             }
         }
     }
