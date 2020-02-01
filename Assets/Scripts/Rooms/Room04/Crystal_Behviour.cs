@@ -10,7 +10,7 @@ public class Crystal_Behviour : MonoBehaviour
 
     private SpriteRenderer sprite_render; 
 
-    private bool IsActive; 
+    public bool IsActive; 
 
 
     // Start is called before the first frame update

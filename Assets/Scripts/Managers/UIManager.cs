@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
 
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance = null;
+    [SerializeField] GameObject pauseScreen;
     [SerializeField] GameObject[] buttonArray;
     Button lastMenuButtonSelected;
 
@@ -22,20 +22,30 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        //Select first button and save it as the last selected button
-        buttonArray[0].transform.GetChild(1).GetComponent<Button>().Select();
-        lastMenuButtonSelected = buttonArray[0].transform.GetChild(1).GetComponent<Button>();
-    }
-
     private void Update()
     {
         //If the player click outside buttons, select last selected button
         if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
         {
-            lastMenuButtonSelected.Select();
+            if (lastMenuButtonSelected != null)
+            {
+                lastMenuButtonSelected.Select();
+            }
         }
+    }
+
+    public void PauseGame()
+    {
+        pauseScreen.SetActive(true);
+        buttonArray[0].transform.GetChild(1).GetComponent<Button>().Select(); 
+        lastMenuButtonSelected = buttonArray[0].transform.GetChild(1).GetComponent<Button>();
+    }
+
+    public void UnpauseGame()
+    {
+        lastMenuButtonSelected = null;
+        pauseScreen.SetActive(false);
+        buttonArray[1].transform.GetChild(1).GetComponent<Button>().Select();
     }
 
     //Called when a button is selected
@@ -61,6 +71,4 @@ public class UIManager : MonoBehaviour
             }
         }
     }
-
-    
 }

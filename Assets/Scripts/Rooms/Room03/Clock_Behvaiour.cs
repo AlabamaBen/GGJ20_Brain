@@ -46,8 +46,15 @@ public class Clock_Behvaiour : MonoBehaviour
 
         foreach (GameObject plateform in Platefroms)
         {
-
-            plateform.SetActive(!(plateform.GetComponent<Clock_Plateform>().color == current_color));
+                    
+            if(GameManager.Gm.ColorActivated)
+            {
+                plateform.SetActive(!(plateform.GetComponent<Clock_Plateform>().color == current_color));
+            }
+            else
+            {
+                plateform.SetActive(false);
+            }
         }
 
     }

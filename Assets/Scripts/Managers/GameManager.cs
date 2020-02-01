@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public bool ColorActivated = false;
     public bool ReadActivated = false;
     public bool SoundActivated = false;
+    private bool gameOnPause;
 
     void Awake()
     {
@@ -23,14 +24,37 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
+    //Update is called once per frame
     void Update()
     {
         //Pause game
-        if (Input.GetKeyDown(KeyCode.Escape) && !SceneManager.GetActiveScene().name.Equals("Game_Menu"))
+        if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("Start")) && !SceneManager.GetActiveScene().name.Equals("Menu"))
         {
-            Time.timeScale = 0;
+            if (!gameOnPause)
+            {
+                PauseGame();           
+            }
+            else
+            {
+                UnpauseGame();
+            }
         }
+    }
+
+    //Unpause the game
+    public void PauseGame()
+    {
+        gameOnPause = true;
+        Time.timeScale = 0;
+        UIManager.instance.PauseGame();
+    }
+
+    //Unpause the game
+    public void UnpauseGame()
+    {
+        gameOnPause = false;
+        Time.timeScale = 1;
+        UIManager.instance.UnpauseGame();
     }
 
     //Restart current level
@@ -47,12 +71,22 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    //Load menu
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
     //Quit game
     public void QuitGame()
     {
         Application.Quit();
     }
 
+    public bool IsGameOnPause()
+    {
+        return gameOnPause;
+    }
 }
 
 
