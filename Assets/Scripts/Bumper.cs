@@ -7,10 +7,12 @@ public class Bumper : MonoBehaviour
 
     [SerializeField]
     private float bumpForce = 35;
+
+    private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class Bumper : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<Character>().Bump(bumpForce);
+            animator.SetTrigger("Bump");
         }
     }
 }
