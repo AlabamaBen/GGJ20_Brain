@@ -53,6 +53,8 @@ public class Character : MonoBehaviour
     float horizontal;
     bool jumpButton;
 
+    public Camera_Manager camera; 
+
     public void Start()
     {
         //myAnimator = GetComponent<Animator>();
@@ -210,6 +212,11 @@ public class Character : MonoBehaviour
     public void Initialize(Animator MyAnimator)
     {
         //this.myAnimator = MyAnimator;
+    }
+
+    public void Die()
+    {
+        transform.position = camera.Current_Room.GetComponent<Room_Behaviour>().Respawn_Point.transform.position;
     }
 
 }
