@@ -78,6 +78,7 @@ public class Character : MonoBehaviour
         if (v.y < -0.2)
         {
             //myAnimator.SetBool("Land", true);
+            
         }
 
 
@@ -91,6 +92,7 @@ public class Character : MonoBehaviour
         if (jumpButton)
         {
             Jump();
+
         }
 
     }
@@ -135,7 +137,7 @@ public class Character : MonoBehaviour
             //myAnimator.SetTrigger("Jump");
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 
-            //AudioManager.instance.Play(gameObject.name + "Jump");
+            AudioManager.instance.Play("Jump");
         }
     }
 
