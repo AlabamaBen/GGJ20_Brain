@@ -26,40 +26,28 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Command to restart the level
-        if (Input.GetKeyDown(KeyCode.Return))
+        //Pause game
+        if (Input.GetKeyDown(KeyCode.Escape) && !SceneManager.GetActiveScene().name.Equals("Game_Menu"))
         {
-            Restart();
-        }
-        //Command Exit
-        else if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            //Exit the game when it is the hub
-            if (SceneManager.GetActiveScene().name == "Game_Menu")
-            {
-                Application.Quit();
-            }
-            //Exit the current level
-            else
-            {
-                SceneManager.LoadScene("Game_Menu");
-            }
+            Time.timeScale = 0;
         }
     }
 
+    //Restart current level
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1;
     }
 
-    //Load the level
-    public void SetLevel(string sceneName)
+    //Start a new game
+    public void StartNewGame()
     {
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        SceneManager.LoadScene("Annelyse", LoadSceneMode.Single);
         Time.timeScale = 1;
     }
 
+    //Quit game
     public void QuitGame()
     {
         Application.Quit();
