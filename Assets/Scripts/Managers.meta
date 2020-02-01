@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/Sprites/Character/Idle.meta
-guid: 3c1c466ca45d92b4ab5cf178d3cf1d9b
-=======
-guid: 8b14660943db6c84f87c70a8688c033e
->>>>>>> 6fb568ce326857abe193361e026db8966d6ffcf0:Assets/Scripts/Managers.meta
+guid: c7c85495521ffef4ea90c3e7d9fca72e
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
