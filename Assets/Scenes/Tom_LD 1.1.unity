@@ -132,6 +132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlockTemplate
       objectReference: {fileID: 0}
+    - target: {fileID: 2237676048528359526, guid: 59ae147c4d7a53e4eb6670887ec45bc7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4231260318655723610, guid: 59ae147c4d7a53e4eb6670887ec45bc7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1206,7 +1211,7 @@ GameObject:
   - component: {fileID: 1876731556}
   m_Layer: 0
   m_Name: BlockTemplate (1)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1478,6 +1483,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: droite
+      objectReference: {fileID: 0}
+    - target: {fileID: 534276809234303568, guid: 008efb9720419ca43b52372493196e6c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 2372384889279005681, guid: 008efb9720419ca43b52372493196e6c,
         type: 3}
