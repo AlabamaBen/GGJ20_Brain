@@ -1,20 +1,30 @@
 a implémenter :
 
-	- bumper : 	hitbox = 1 unité de haut, 2 unités de large
+	- Bumper : 	hitbox = 1 unité de haut, 2 unités de large
 			action = fait sauter le joueur de 4 unités
 
-	- plateforme mouvante : 	hitbox = 0.5 unité de haut, 2 unités de large
+	- Plateforme mouvante : 	hitbox = 0.5 unité de haut, 2 unités de large
 					action = parcours 2 unités 
 
-	- Twister Clock : 
+	- Twister Clock : 		hitbox = 0 u de haut, 0 u de large
+					action = l'aiguille du cadran tourne dans le sens horaire, et choisi une couleur toutes les 3 secondes.
+					Lorsqu'une couleur est choisi, le background adopte cette couleur, faisant disparaître et désactivant les plateformes de la couleur sélectionnée.
+					
 
-	- Panneau : 	hitbox : 1 u de haut, 2 u de large
-			action : fais apparaître une bulle d'information au dessus de lui lorsque le joueur s'approche.
+	- Panneau : 	hitbox = 1 u de haut, 2 u de large
+			action = fais apparaître une bulle d'information au dessus de lui lorsque le joueur s'approche.
 
-	- Tableau de commandes / Pince : 	hitbox : 1 u de haut, 3 u de large
-					action : le joueur entre en mode pince en interagissant avec "E". La pince se place au-dessus des glyphes.
-					Q déplace la pince vers la gauche, et D vers la droite. Appuyer la première fois sur Spacebar fais descendre la pince et attrape
-					la glyphe sélectionnée. Quand la pince a une glyphe, elle se place au-dessus des emplacements vides. Q et D permettent de la déplacer pour choisir 
-					l'emplacement dans lequel mettre la glyphe. Appuyer une deuxième fois sur Spacebar dépose la glyphe de la pince dans l'emplacement si il est vide.
-					Si l'emplacement est déjà plein, la pince échange le glyphe à l'intérieur avec celui qu'elle tient.
-						 
+	- Tableau de commandes / Pince : 	hitbox = 1 u de haut, 3 u de large
+						action = le joueur entre en mode pince en interagissant avec "E". La pince se place au-dessus des glyphes.
+						Q déplace la pince vers la gauche, et D vers la droite. Appuyer la première fois sur Spacebar fais descendre la pince et attrape
+						la glyphe sélectionnée. Quand la pince a une glyphe, elle se place au-dessus des emplacements vides. Q et D permettent de la déplacer pour choisir 
+						l'emplacement dans lequel mettre la glyphe. Appuyer une deuxième fois sur Spacebar dépose la glyphe de la pince dans l'emplacement si il est vide.
+						Si l'emplacement est déjà plein, la pince échange le glyphe à l'intérieur avec celui qu'elle tient.
+
+	- Music Pipes : 	hitbox = 2.5 u de haut, 1.5 u de large
+				action = si le joueur interagis avec la touche E, un son d'orgue se fait entendre.
+				Les sons présents sont ceux d'une gamme entière de musique (Do, Re, Mi, Fa, Sol, La, Si, Do).
+				Les portes doivent être activées dans l'ordre du son émis pour reconstituer la gamme de musique.
+				Si le joueur se trompe, le son de la Pipe est suivi dans "faux accord".
+				
+				
