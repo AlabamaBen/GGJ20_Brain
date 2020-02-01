@@ -1893,7 +1893,7 @@ PrefabInstance:
     - target: {fileID: 2534775983625302408, guid: be0d7dc661e083b439385fc038d85064,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.6400001
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 2534775983625302408, guid: be0d7dc661e083b439385fc038d85064,
         type: 3}
@@ -2417,7 +2417,7 @@ PrefabInstance:
     - target: {fileID: 2534775983625302408, guid: be0d7dc661e083b439385fc038d85064,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.57
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 2534775983625302408, guid: be0d7dc661e083b439385fc038d85064,
         type: 3}
@@ -2659,7 +2659,7 @@ PrefabInstance:
     - target: {fileID: 9150809748436887164, guid: eff884d184300dd45b45be5df9a28dd8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.66
+      value: -7.85
       objectReference: {fileID: 0}
     - target: {fileID: 9150809748436887164, guid: eff884d184300dd45b45be5df9a28dd8,
         type: 3}
@@ -2714,17 +2714,37 @@ PrefabInstance:
     - target: {fileID: 9150809748436887167, guid: eff884d184300dd45b45be5df9a28dd8,
         type: 3}
       propertyPath: m_GravityScale
-      value: 2.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9150809748436887167, guid: eff884d184300dd45b45be5df9a28dd8,
         type: 3}
       propertyPath: m_Mass
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 9150809748436887167, guid: eff884d184300dd45b45be5df9a28dd8,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 52ba48b9b75ea524fad2af148317820c, type: 2}
     - target: {fileID: 9150809748436887165, guid: eff884d184300dd45b45be5df9a28dd8,
         type: 3}
       propertyPath: jumpForce
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150809748436887165, guid: eff884d184300dd45b45be5df9a28dd8,
+        type: 3}
+      propertyPath: airControl
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150809748436887165, guid: eff884d184300dd45b45be5df9a28dd8,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150809748436887165, guid: eff884d184300dd45b45be5df9a28dd8,
+        type: 3}
+      propertyPath: movementSpeed
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eff884d184300dd45b45be5df9a28dd8, type: 3}
