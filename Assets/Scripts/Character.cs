@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    //public Animator myAnimator { get; private set; }
-
+    private Animator characterAnimator;
+    public GameObject characterSprite;
     [SerializeField]
     protected float movementSpeed = 4;
     [SerializeField]
@@ -27,6 +27,8 @@ public class Character : MonoBehaviour
     private GameObject jumpPrefab;
 
     protected bool isFacingRight;
+
+    public Camera_Manager camera;
 
     //private Shake shake;
 
@@ -53,17 +55,19 @@ public class Character : MonoBehaviour
     float horizontal;
     bool jumpButton;
 
-    public Camera_Manager camera; 
-
     public void Start()
     {
-        //myAnimator = GetComponent<Animator>();
+        characterAnimator = characterSprite.GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         isFacingRight = true;
 
         //shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<Shake>();
 
-        //moveAction.Initialize(myAnimator);
+    }
+
+    private void FixedUpdate()
+    {
+        HandleLayers();
     }
 
     private void Update()
@@ -76,13 +80,11 @@ public class Character : MonoBehaviour
 
         isGrounded = IsGrounded(rb);
 
-        // v = HandleMovement(horizontal, v);
         v = HandleMovementAcceleration(horizontal, v, isGrounded);
 
         if (v.y < -0.2)
         {
-            //myAnimator.SetBool("Land", true);
-
+            characterAnimator.SetBool("Land", true);
         }
 
         rb.velocity = v;
@@ -135,6 +137,9 @@ public class Character : MonoBehaviour
         {
             v.x = 0;
         }
+
+        characterAnimator.SetFloat("MoveSpeed", Mathf.Abs(horizontal));
+
         return v;
     }
 
@@ -153,7 +158,7 @@ public class Character : MonoBehaviour
             isGrounded = false;
             isJumping = true;
             this.transform.SetParent(null);
-            //myAnimator.SetTrigger("Jump");
+            characterAnimator.SetTrigger("Jump");
             rb.AddForce(Vector2.up * jumpValue, ForceMode2D.Impulse);
 
 
@@ -163,13 +168,14 @@ public class Character : MonoBehaviour
 
     public void Bump(float jumpValue)
     {
-            canJump = false;
-            isGrounded = false;
-            isJumping = true;
-            //myAnimator.SetTrigger("Jump");
-            rb.AddForce(Vector2.up * jumpValue, ForceMode2D.Impulse);
+        characterAnimator.SetBool("Land", false);
+        canJump = false;
+        isGrounded = false;
+        isJumping = true;
+        characterAnimator.SetTrigger("Jump");
+        rb.AddForce(Vector2.up * jumpValue, ForceMode2D.Impulse);
 
-            AudioManager.instance.Play("Jump");
+        AudioManager.instance.Play("Jump");
     }
 
     private bool IsGrounded(Rigidbody2D MyRigidbody)
@@ -184,22 +190,24 @@ public class Character : MonoBehaviour
 
                 for (int i = 0; i < colliders.Length; i++)
                 {
+                    Debug.Log(colliders.Length);
                     if (colliders[i].gameObject != gameObject && (colliders[i].gameObject.CompareTag("Floor")))
                     {
-                        if(colliders[i].gameObject.GetComponent<PlatformSliding>() != null)
+                        if (colliders[i].gameObject.GetComponent<PlatformSliding>() != null)
                         {
                             this.transform.SetParent(colliders[i].gameObject.transform);
                         }
                         //If the colliders collide with something else than the player, then the players is grounded
                         canJump = true;
                         isJumping = false;
-                        /*myAnimator.ResetTrigger("Jump");
-                        if (myAnimator.GetBool("Land"))
+
+                        characterAnimator.ResetTrigger("Jump");
+
+                        if (characterAnimator.GetBool("Land"))
                         {
-                            myAnimator.SetBool("Land", false);
-                            //AudioManager.instance.Play(gameObject.name + "Land");
-                            StartCoroutine("LandEffect");
-                        }*/
+                            characterAnimator.SetBool("Land", false);
+                            AudioManager.instance.Play("Land");
+                        }
                         return true;
                     }
                 }
@@ -209,14 +217,21 @@ public class Character : MonoBehaviour
         return false;
     }
 
-    public void Initialize(Animator MyAnimator)
+    private void HandleLayers()
     {
-        //this.myAnimator = MyAnimator;
+        if (!isGrounded)
+        {
+            characterAnimator.SetLayerWeight(1, 1);
+        }
+        else
+        {
+            characterAnimator.SetLayerWeight(1, 0);
+        }
     }
 
     public void Die()
     {
         transform.position = camera.Current_Room.GetComponent<Room_Behaviour>().Respawn_Point.transform.position;
     }
-
 }
+

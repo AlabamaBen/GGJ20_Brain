@@ -195,6 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0ae0e41d56122f4cbf4321ecdbb9d64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterSprite: {fileID: 949471273}
   movementSpeed: 1
   maxSpeed: 6
   aController: {fileID: 0}
@@ -209,7 +210,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  airControl: 0
+  airControl: 0.8
 --- !u!1 &9150809749140066774
 GameObject:
   m_ObjectHideFlags: 0
