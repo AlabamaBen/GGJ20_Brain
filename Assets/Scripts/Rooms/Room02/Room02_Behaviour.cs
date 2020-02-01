@@ -56,9 +56,7 @@ public class Room02_Behaviour : MonoBehaviour
         {
             Door.SetActive(false);
             SynapseActivated = true;
+            GameManager.Gm.ColorActivated = true; 
         }
-
-
-
     }
 }
