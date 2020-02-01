@@ -27,7 +27,6 @@ public class Character : MonoBehaviour
     private GameObject jumpPrefab;
 
     protected bool isFacingRight;
-    protected bool canMove;
 
     //private Shake shake;
 
@@ -57,7 +56,6 @@ public class Character : MonoBehaviour
         //myAnimator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         isFacingRight = true;
-        canMove = true;
 
         //shake = GameObject.FindGameObjectWithTag("ScreenShake").GetComponent<Shake>();
 
@@ -69,22 +67,18 @@ public class Character : MonoBehaviour
         GetInputs();
 
         v = rb.velocity;
-        if (canMove)
-        {
-            Flip(horizontal);
-        }
+
+        Flip(horizontal);
+
         isGrounded = IsGrounded(rb);
+
+        // v = HandleMovement(horizontal, v);
+        v = HandleMovementAcceleration(horizontal, v);
 
         if (v.y < -0.2)
         {
             //myAnimator.SetBool("Land", true);
-            
-        }
 
-
-        if (canMove)
-        {
-            v = HandleMovement(horizontal, v);
         }
 
         rb.velocity = v;
@@ -92,7 +86,6 @@ public class Character : MonoBehaviour
         if (jumpButton)
         {
             Jump();
-
         }
 
     }
@@ -117,6 +110,27 @@ public class Character : MonoBehaviour
     {
         v.x = horizontal * movementSpeed;
         //myAnimator.SetFloat("PlayerSpeed", Mathf.Abs(horizontal));
+        return v;
+    }
+
+    public Vector2 HandleMovementAcceleration(float horizontal, Vector2 v)
+    {
+        if (horizontal != 0)
+        {
+            if (Mathf.Abs(v.x) < maxSpeed)
+            {
+                v.x += horizontal * movementSpeed;
+
+            }
+            else
+            {
+                v.x = horizontal * maxSpeed;
+            }
+        }
+        else
+        {
+            v.x = horizontal;
+        }
         return v;
     }
 
