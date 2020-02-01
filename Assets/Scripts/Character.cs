@@ -62,7 +62,7 @@ public class Character : MonoBehaviour
         //moveAction.Initialize(myAnimator);
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         GetInputs();
 
@@ -148,8 +148,10 @@ public class Character : MonoBehaviour
             canJump = false;
             isGrounded = false;
             isJumping = true;
+            this.transform.SetParent(null);
             //myAnimator.SetTrigger("Jump");
             rb.AddForce(Vector2.up * jumpValue, ForceMode2D.Impulse);
+
 
             AudioManager.instance.Play("Jump");
         }
@@ -180,6 +182,10 @@ public class Character : MonoBehaviour
                 {
                     if (colliders[i].gameObject != gameObject && (colliders[i].gameObject.CompareTag("Floor")))
                     {
+                        if(colliders[i].gameObject.GetComponent<PlatformSliding>() != null)
+                        {
+                            this.transform.SetParent(colliders[i].gameObject.transform);
+                        }
                         //If the colliders collide with something else than the player, then the players is grounded
                         canJump = true;
                         isJumping = false;
@@ -195,12 +201,13 @@ public class Character : MonoBehaviour
                 }
             }
         }
+        this.transform.SetParent(null);
         return false;
-
     }
 
     public void Initialize(Animator MyAnimator)
     {
         //this.myAnimator = MyAnimator;
     }
+
 }
