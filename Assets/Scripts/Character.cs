@@ -85,7 +85,7 @@ public class Character : MonoBehaviour
 
         if (jumpButton)
         {
-            Jump();
+            Jump(jumpForce);
         }
 
     }
@@ -140,7 +140,7 @@ public class Character : MonoBehaviour
         rb.transform.localScale = new Vector3(rb.transform.localScale.x * -1, rb.transform.localScale.y, rb.transform.localScale.z);
     }
 
-    private void Jump()
+    private void Jump(float jumpValue)
     {
         // Player is not grounded when he jump
         if (isGrounded && canJump)
@@ -149,10 +149,21 @@ public class Character : MonoBehaviour
             isGrounded = false;
             isJumping = true;
             //myAnimator.SetTrigger("Jump");
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * jumpValue, ForceMode2D.Impulse);
 
             AudioManager.instance.Play("Jump");
         }
+    }
+
+    public void Bump(float jumpValue)
+    {
+            canJump = false;
+            isGrounded = false;
+            isJumping = true;
+            //myAnimator.SetTrigger("Jump");
+            rb.AddForce(Vector2.up * jumpValue, ForceMode2D.Impulse);
+
+            AudioManager.instance.Play("Jump");
     }
 
     private bool IsGrounded(Rigidbody2D MyRigidbody)
