@@ -13,8 +13,7 @@ public class Room_Behaviour : MonoBehaviour
 
     private Camera_Manager camera_manager;
 
-
-
+    public GameObject Respawn_Point;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +31,7 @@ public class Room_Behaviour : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Character")
+        if(collision.gameObject.tag == "Player")
         {
             if(camera_manager.Current_Room != gameObject)
             {
