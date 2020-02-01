@@ -328,6 +328,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4126026809987356441, guid: be0d7dc661e083b439385fc038d85064,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 94c7060cfe4f434469df179ed0e96eff,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0d7dc661e083b439385fc038d85064, type: 3}
 --- !u!1001 &327881703
@@ -397,6 +403,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4126026809987356441, guid: 798dc79fdade3a649b4d03e83c3634e4,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 04d5e4b294b88ef4897615ea0a4f5517,
+        type: 3}
     - target: {fileID: 2005657064573754750, guid: 798dc79fdade3a649b4d03e83c3634e4,
         type: 3}
       propertyPath: patrolPoints.Array.size
@@ -610,6 +622,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3519319be792294dbb6bea84e6475c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ColorActivated: 0
+  ReadActivated: 0
+  SoundActivated: 0
 --- !u!4 &808858569
 Transform:
   m_ObjectHideFlags: 0
@@ -721,6 +736,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4126026809987356441, guid: be0d7dc661e083b439385fc038d85064,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f8053c09bd8975149803c28dd15831c6,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0d7dc661e083b439385fc038d85064, type: 3}
 --- !u!1 &948525911
@@ -949,6 +970,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4126026809987356441, guid: be0d7dc661e083b439385fc038d85064,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 94c7060cfe4f434469df179ed0e96eff,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0d7dc661e083b439385fc038d85064, type: 3}
 --- !u!1001 &1484942616
