@@ -30,7 +30,6 @@ public class Autel_Behaviour : MonoBehaviour
     void Start()
     {
 
-
     }
 
     // Update is called once per frame
@@ -86,7 +85,10 @@ public class Autel_Behaviour : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            startanim = true;
+            if(GameManager.Gm.ReadActivated && GameManager.Gm.ColorActivated)
+            {
+                startanim = true;
+            }
         }
     }
 }
