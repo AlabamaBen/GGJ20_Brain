@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
         //Pause game
         if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("Start")) && !SceneManager.GetActiveScene().name.Equals("Menu"))
         {
+            Debug.Log("d");
             if (!gameOnPause)
             {
                 PauseGame();           

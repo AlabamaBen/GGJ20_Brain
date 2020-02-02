@@ -1,199 +1,199 @@
 fileFormatVersion: 2
-guid: f34a3d00ed81924428bc3e533e6a81e6
+guid: 451b4d6a61b3f164ba7b829020dcc599
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8658762377294296785
-    second: turn_synaps_0
+      213: 832374444558036945
+    second: turn_synaps_bump_0
   - first:
-      213: 2245234286022081791
-    second: turn_synaps_1
+      213: 8466960009942455359
+    second: turn_synaps_bump_1
   - first:
-      213: 5126449256238820357
-    second: turn_synaps_2
+      213: 7288608877473945850
+    second: turn_synaps_bump_2
   - first:
-      213: -8500753703298886675
-    second: turn_synaps_3
+      213: 4748442837950322644
+    second: turn_synaps_bump_3
   - first:
-      213: 6895453279615155311
-    second: turn_synaps_4
+      213: -2986503656748085469
+    second: turn_synaps_bump_4
   - first:
-      213: 8426224373292807207
-    second: turn_synaps_5
+      213: -5188221216143056748
+    second: turn_synaps_bump_5
   - first:
-      213: -5570014237680232162
-    second: turn_synaps_6
+      213: -1917455379195672886
+    second: turn_synaps_bump_6
   - first:
-      213: -4883665784297368364
-    second: turn_synaps_7
+      213: -1791000005722018439
+    second: turn_synaps_bump_7
   - first:
-      213: 1584904295233828573
-    second: turn_synaps_8
+      213: -7414996614580581279
+    second: turn_synaps_bump_8
   - first:
-      213: -650163287821774076
-    second: turn_synaps_9
+      213: -3163400953290772408
+    second: turn_synaps_bump_9
   - first:
-      213: -1414219286123773957
-    second: turn_synaps_10
+      213: -4026087484971952305
+    second: turn_synaps_bump_10
   - first:
-      213: -1319088243817148316
-    second: turn_synaps_11
+      213: 8987697929480576048
+    second: turn_synaps_bump_11
   - first:
-      213: 88580566964037985
-    second: turn_synaps_12
+      213: -8179862899479914556
+    second: turn_synaps_bump_12
   - first:
-      213: 3822610067658866846
-    second: turn_synaps_13
+      213: -8957529270640573418
+    second: turn_synaps_bump_13
   - first:
-      213: -4962722934371702378
-    second: turn_synaps_14
+      213: -3989150570376875334
+    second: turn_synaps_bump_14
   - first:
-      213: 3147017677899185037
-    second: turn_synaps_15
+      213: 5084973612998163167
+    second: turn_synaps_bump_15
   - first:
-      213: 2484112988628663523
-    second: turn_synaps_16
+      213: -5420194981660537948
+    second: turn_synaps_bump_16
   - first:
-      213: 1828571266985146122
-    second: turn_synaps_17
+      213: 1794513760208868674
+    second: turn_synaps_bump_17
   - first:
-      213: -8372106296200603667
-    second: turn_synaps_18
+      213: 864179962582570290
+    second: turn_synaps_bump_18
   - first:
-      213: -6601331640500024546
-    second: turn_synaps_19
+      213: 4307843317379069571
+    second: turn_synaps_bump_19
   - first:
-      213: -6856470309562163938
-    second: turn_synaps_20
+      213: -2201356824929036183
+    second: turn_synaps_bump_20
   - first:
-      213: 4628694142253972603
-    second: turn_synaps_21
+      213: 2660097960502278947
+    second: turn_synaps_bump_21
   - first:
-      213: 1510790467444236870
-    second: turn_synaps_22
+      213: 8373794724867883317
+    second: turn_synaps_bump_22
   - first:
-      213: 2933449048494845295
-    second: turn_synaps_23
+      213: -1755285769295610870
+    second: turn_synaps_bump_23
   - first:
-      213: 7337872648700067815
-    second: turn_synaps_24
+      213: -627046487597175253
+    second: turn_synaps_bump_24
   - first:
-      213: 4725453218067785567
-    second: turn_synaps_25
+      213: 9011546209727594291
+    second: turn_synaps_bump_25
   - first:
-      213: -5020395996950512724
-    second: turn_synaps_26
+      213: -7093639216633567987
+    second: turn_synaps_bump_26
   - first:
-      213: 6395149258738745117
-    second: turn_synaps_27
+      213: 8975573401554967189
+    second: turn_synaps_bump_27
   - first:
-      213: 5968242726430699766
-    second: turn_synaps_28
+      213: 7413521542625587884
+    second: turn_synaps_bump_28
   - first:
-      213: 3199015813835765009
-    second: turn_synaps_29
+      213: -8753144019948985216
+    second: turn_synaps_bump_29
   - first:
-      213: -6716317271132289948
-    second: turn_synaps_30
+      213: -3101597672347585847
+    second: turn_synaps_bump_30
   - first:
-      213: 3818988033498223856
-    second: turn_synaps_31
+      213: 8356177473062653781
+    second: turn_synaps_bump_31
   - first:
-      213: -4565350791140714001
-    second: turn_synaps_32
+      213: 3241911878280193890
+    second: turn_synaps_bump_32
   - first:
-      213: -4117735644746958737
-    second: turn_synaps_33
+      213: -4160149017166145467
+    second: turn_synaps_bump_33
   - first:
-      213: -5784021177422095792
-    second: turn_synaps_34
+      213: -7481939760970943051
+    second: turn_synaps_bump_34
   - first:
-      213: 3840556320200458740
-    second: turn_synaps_35
+      213: -4625561882387714643
+    second: turn_synaps_bump_35
   - first:
-      213: -6571184052047290967
-    second: turn_synaps_36
+      213: 4808552112150652720
+    second: turn_synaps_bump_36
   - first:
-      213: -3466965407876337444
-    second: turn_synaps_37
+      213: 918841967442072877
+    second: turn_synaps_bump_37
   - first:
-      213: 7267403390136372838
-    second: turn_synaps_38
+      213: -5440513342659724885
+    second: turn_synaps_bump_38
   - first:
-      213: 5376123308943074651
-    second: turn_synaps_39
+      213: 8747381401765959506
+    second: turn_synaps_bump_39
   - first:
-      213: -4429685635602825366
-    second: turn_synaps_40
+      213: 424317654250830969
+    second: turn_synaps_bump_40
   - first:
-      213: -8729925260170129668
-    second: turn_synaps_41
+      213: -2158647876578919731
+    second: turn_synaps_bump_41
   - first:
-      213: 3310907337137921739
-    second: turn_synaps_42
+      213: 4817034929159147855
+    second: turn_synaps_bump_42
   - first:
-      213: 5636935127078116063
-    second: turn_synaps_43
+      213: 1346855043204912002
+    second: turn_synaps_bump_43
   - first:
-      213: -3362152557278127508
-    second: turn_synaps_44
+      213: -881703978435493439
+    second: turn_synaps_bump_44
   - first:
-      213: 4148202656779488136
-    second: turn_synaps_45
+      213: 4097798606128265401
+    second: turn_synaps_bump_45
   - first:
-      213: 6688573598765110203
-    second: turn_synaps_46
+      213: 3649289243017447024
+    second: turn_synaps_bump_46
   - first:
-      213: -2464646609111118804
-    second: turn_synaps_47
+      213: -8790100260466101365
+    second: turn_synaps_bump_47
   - first:
-      213: 1096272526942023182
-    second: turn_synaps_48
+      213: -908666417615973709
+    second: turn_synaps_bump_48
   - first:
-      213: 3801034745788940700
-    second: turn_synaps_49
+      213: 6030446861532795165
+    second: turn_synaps_bump_49
   - first:
-      213: -6632257402196853047
-    second: turn_synaps_50
+      213: -2221113592347003395
+    second: turn_synaps_bump_50
   - first:
-      213: 4850766691557260852
-    second: turn_synaps_51
+      213: 190204088749840491
+    second: turn_synaps_bump_51
   - first:
-      213: -844713778558991717
-    second: turn_synaps_52
+      213: -3094199090813156263
+    second: turn_synaps_bump_52
   - first:
-      213: 7186713124027016101
-    second: turn_synaps_53
+      213: -1109088010627864510
+    second: turn_synaps_bump_53
   - first:
-      213: -6609797851317232485
-    second: turn_synaps_54
+      213: -2939040305876727165
+    second: turn_synaps_bump_54
   - first:
-      213: 4502292129523224949
-    second: turn_synaps_55
+      213: 2739761925538229644
+    second: turn_synaps_bump_55
   - first:
-      213: 6298862101421829768
-    second: turn_synaps_56
+      213: 8057586169872305315
+    second: turn_synaps_bump_56
   - first:
-      213: -7854145399731856079
-    second: turn_synaps_57
+      213: 4442825162221746616
+    second: turn_synaps_bump_57
   - first:
-      213: -582664582565389088
-    second: turn_synaps_58
+      213: 7023448379664837346
+    second: turn_synaps_bump_58
   - first:
-      213: 5712299074522517694
-    second: turn_synaps_59
+      213: -6085398972696985838
+    second: turn_synaps_bump_59
   - first:
-      213: -1032336409675018979
-    second: turn_synaps_60
+      213: 6787410212180963403
+    second: turn_synaps_bump_60
   - first:
-      213: -7008195840921163893
-    second: turn_synaps_61
+      213: 5328611110421660394
+    second: turn_synaps_bump_61
   - first:
-      213: 2426506734872649897
-    second: turn_synaps_62
+      213: 2899989596047593216
+    second: turn_synaps_bump_62
   - first:
-      213: 2223105707776816869
-    second: turn_synaps_63
+      213: 8692189663847601199
+    second: turn_synaps_bump_63
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -273,17 +273,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -309,7 +298,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: turn_synaps_0
+      name: turn_synaps_bump_0
       rect:
         serializedVersion: 2
         x: 0
@@ -323,14 +312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6706b52bf0fe95e42af0293f990180c3
-      internalID: 8658762377294296785
+      spriteID: e6d457e09e075f54bb4d6a728338957f
+      internalID: 832374444558036945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_1
+      name: turn_synaps_bump_1
       rect:
         serializedVersion: 2
         x: 128
@@ -344,14 +333,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73abcc34f5a661442a24e484efb22819
-      internalID: 2245234286022081791
+      spriteID: e0eb8f45067e72e4b89ba8467f0804e6
+      internalID: 8466960009942455359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_2
+      name: turn_synaps_bump_2
       rect:
         serializedVersion: 2
         x: 256
@@ -365,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c371cd7e269ddc4dadec62d026a8ed3
-      internalID: 5126449256238820357
+      spriteID: 61f2e8891602a824aa8bb9f5b4d6de32
+      internalID: 7288608877473945850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_3
+      name: turn_synaps_bump_3
       rect:
         serializedVersion: 2
         x: 384
@@ -386,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf054dfda35139e47b56a070e12b20b7
-      internalID: -8500753703298886675
+      spriteID: 507bd1799339e994bbee01ef5ebbd563
+      internalID: 4748442837950322644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_4
+      name: turn_synaps_bump_4
       rect:
         serializedVersion: 2
         x: 512
@@ -407,14 +396,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca77cb1ea79f3a24da0344f26b01149a
-      internalID: 6895453279615155311
+      spriteID: 5af221ff1008092438aa414bcc6318f1
+      internalID: -2986503656748085469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_5
+      name: turn_synaps_bump_5
       rect:
         serializedVersion: 2
         x: 640
@@ -428,14 +417,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9ab02598e699ce408706ec012b00350
-      internalID: 8426224373292807207
+      spriteID: c78591ba01cd8854fb69c5dcfdf0166a
+      internalID: -5188221216143056748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_6
+      name: turn_synaps_bump_6
       rect:
         serializedVersion: 2
         x: 768
@@ -449,14 +438,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bec9d60433419cb4d96469082a902b92
-      internalID: -5570014237680232162
+      spriteID: 9aaa99ee911d36340b8d1f7700ed4b15
+      internalID: -1917455379195672886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_7
+      name: turn_synaps_bump_7
       rect:
         serializedVersion: 2
         x: 896
@@ -470,14 +459,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcca484136d6937458f0b819f9671029
-      internalID: -4883665784297368364
+      spriteID: 8670b6ad26a59e9469e1bc3ad3781069
+      internalID: -1791000005722018439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_8
+      name: turn_synaps_bump_8
       rect:
         serializedVersion: 2
         x: 0
@@ -491,14 +480,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f23c3daa0e7792439e05d6185cc3c0e
-      internalID: 1584904295233828573
+      spriteID: 1d9d523e10dbb1a4885c568dd06d6ebb
+      internalID: -7414996614580581279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_9
+      name: turn_synaps_bump_9
       rect:
         serializedVersion: 2
         x: 128
@@ -512,14 +501,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee608ca9aeff12146acf335d4fed28ee
-      internalID: -650163287821774076
+      spriteID: 060a07e41e8f9dd4ab0589a898483e5a
+      internalID: -3163400953290772408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_10
+      name: turn_synaps_bump_10
       rect:
         serializedVersion: 2
         x: 256
@@ -533,14 +522,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9470bd23ae6ac284f918c97d33a2cb90
-      internalID: -1414219286123773957
+      spriteID: 5d3fc424b86570c40b4e6a0950d553cd
+      internalID: -4026087484971952305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_11
+      name: turn_synaps_bump_11
       rect:
         serializedVersion: 2
         x: 384
@@ -554,14 +543,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22514ce685b71ff498e1aff937ded565
-      internalID: -1319088243817148316
+      spriteID: 6116091b28f4af743874dcab8b52c61e
+      internalID: 8987697929480576048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_12
+      name: turn_synaps_bump_12
       rect:
         serializedVersion: 2
         x: 512
@@ -575,14 +564,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e4b1bd3d37f64c46802bb4981cf5b11
-      internalID: 88580566964037985
+      spriteID: ab92223e3da7a5f4687f4f045ff93c70
+      internalID: -8179862899479914556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_13
+      name: turn_synaps_bump_13
       rect:
         serializedVersion: 2
         x: 640
@@ -596,14 +585,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97a5640c3490f94498108f8de2b5a475
-      internalID: 3822610067658866846
+      spriteID: 40e023f9e19da3f4b9176b94f080fd97
+      internalID: -8957529270640573418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_14
+      name: turn_synaps_bump_14
       rect:
         serializedVersion: 2
         x: 768
@@ -617,14 +606,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d24f8c07a8062b7408a7b059960c8b25
-      internalID: -4962722934371702378
+      spriteID: f4d288b97aae89643aae16b9d9ee4023
+      internalID: -3989150570376875334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_15
+      name: turn_synaps_bump_15
       rect:
         serializedVersion: 2
         x: 896
@@ -638,14 +627,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60c220bba9e35f14dab0479d3728808b
-      internalID: 3147017677899185037
+      spriteID: 04846fab4a74ef4449785c644672a9a0
+      internalID: 5084973612998163167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_16
+      name: turn_synaps_bump_16
       rect:
         serializedVersion: 2
         x: 0
@@ -659,14 +648,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 027eb4626e944d949a54db69f8e64687
-      internalID: 2484112988628663523
+      spriteID: 0302ebc89a105f049b16bc3ca816ea0c
+      internalID: -5420194981660537948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_17
+      name: turn_synaps_bump_17
       rect:
         serializedVersion: 2
         x: 128
@@ -680,14 +669,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd1a07409e0077447aac380df6654ec7
-      internalID: 1828571266985146122
+      spriteID: 6a9482665f32c1846993e7d89c2ac485
+      internalID: 1794513760208868674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_18
+      name: turn_synaps_bump_18
       rect:
         serializedVersion: 2
         x: 256
@@ -701,14 +690,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49bc7308794dbce43adf95bf15ba23af
-      internalID: -8372106296200603667
+      spriteID: d582ab3b887d8014b9882a869452a927
+      internalID: 864179962582570290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_19
+      name: turn_synaps_bump_19
       rect:
         serializedVersion: 2
         x: 384
@@ -722,14 +711,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dab9db11a3633914f8876dc83d22e39b
-      internalID: -6601331640500024546
+      spriteID: d982c3690bb2cf94296fafcd0ee5752a
+      internalID: 4307843317379069571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_20
+      name: turn_synaps_bump_20
       rect:
         serializedVersion: 2
         x: 512
@@ -743,14 +732,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c194b9dbc7499f49853a6ab3e525af9
-      internalID: -6856470309562163938
+      spriteID: 27fe7fcddff731b41bc34b0a6f99c1b3
+      internalID: -2201356824929036183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_21
+      name: turn_synaps_bump_21
       rect:
         serializedVersion: 2
         x: 640
@@ -764,14 +753,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c398d97fa0d3ce04fb9f5218d58497bf
-      internalID: 4628694142253972603
+      spriteID: 2d8ec0097d8436e49963124e99a01a91
+      internalID: 2660097960502278947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_22
+      name: turn_synaps_bump_22
       rect:
         serializedVersion: 2
         x: 768
@@ -785,14 +774,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ba0f4b72928abd49a7bd28aedfd9ed6
-      internalID: 1510790467444236870
+      spriteID: 71076a5583fc51c4da465b4269411e12
+      internalID: 8373794724867883317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_23
+      name: turn_synaps_bump_23
       rect:
         serializedVersion: 2
         x: 896
@@ -806,14 +795,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecd09d880b1ec404da03587e270b4d8c
-      internalID: 2933449048494845295
+      spriteID: b2f6cf35b32a901498cfab90b4d9eb1e
+      internalID: -1755285769295610870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_24
+      name: turn_synaps_bump_24
       rect:
         serializedVersion: 2
         x: 0
@@ -827,14 +816,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21e7b1a618483f542903bcfdcb9b576e
-      internalID: 7337872648700067815
+      spriteID: a102839d5125f9545bc4c88da126846d
+      internalID: -627046487597175253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_25
+      name: turn_synaps_bump_25
       rect:
         serializedVersion: 2
         x: 128
@@ -848,14 +837,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb0f96df29007c542a2af794b3dd0fd0
-      internalID: 4725453218067785567
+      spriteID: b90ddd57f1fb30a498ee2ad2262d7999
+      internalID: 9011546209727594291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_26
+      name: turn_synaps_bump_26
       rect:
         serializedVersion: 2
         x: 256
@@ -869,14 +858,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 443f954b495f2854cb1caf4143172715
-      internalID: -5020395996950512724
+      spriteID: e96ca4ccce04de74ea6f3b377508cf51
+      internalID: -7093639216633567987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_27
+      name: turn_synaps_bump_27
       rect:
         serializedVersion: 2
         x: 384
@@ -890,14 +879,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9239748754127bf48a66aa0ac388c7f1
-      internalID: 6395149258738745117
+      spriteID: cf70717daacd1f540a113fe1c1fbaa34
+      internalID: 8975573401554967189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_28
+      name: turn_synaps_bump_28
       rect:
         serializedVersion: 2
         x: 512
@@ -911,14 +900,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebe4c771afdadcc48a621c949cdcdd39
-      internalID: 5968242726430699766
+      spriteID: 7ae5409a04df5694ea18c18a3b804267
+      internalID: 7413521542625587884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_29
+      name: turn_synaps_bump_29
       rect:
         serializedVersion: 2
         x: 640
@@ -932,14 +921,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60dfe116fceb33c48b4485e7730d3ba1
-      internalID: 3199015813835765009
+      spriteID: bdeca3e0c81dc1647b1a7ea2319796fb
+      internalID: -8753144019948985216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_30
+      name: turn_synaps_bump_30
       rect:
         serializedVersion: 2
         x: 768
@@ -953,14 +942,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc9e1e278583bdd4c8e0a3b1555b48f7
-      internalID: -6716317271132289948
+      spriteID: 29ebd7a7216fbef49a57c8f93b152cab
+      internalID: -3101597672347585847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_31
+      name: turn_synaps_bump_31
       rect:
         serializedVersion: 2
         x: 896
@@ -974,14 +963,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fef430596f6f1f9438a93deb24ee1dfa
-      internalID: 3818988033498223856
+      spriteID: dbfe0a647e22efd47a0fb7edfd293cf7
+      internalID: 8356177473062653781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_32
+      name: turn_synaps_bump_32
       rect:
         serializedVersion: 2
         x: 0
@@ -995,14 +984,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 537f2ca2617cfde418640b72f270caab
-      internalID: -4565350791140714001
+      spriteID: a3854c606de5cf14eaf59fa6a1b9669c
+      internalID: 3241911878280193890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_33
+      name: turn_synaps_bump_33
       rect:
         serializedVersion: 2
         x: 128
@@ -1016,14 +1005,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22d63d89e7422be4290ae6fbf7e922a7
-      internalID: -4117735644746958737
+      spriteID: 93da3c6855b4ffc4ca77f53183e7da48
+      internalID: -4160149017166145467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_34
+      name: turn_synaps_bump_34
       rect:
         serializedVersion: 2
         x: 256
@@ -1037,14 +1026,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a7da2d54fad9054abd8952ea4cd68af
-      internalID: -5784021177422095792
+      spriteID: 52e44c8541e71a94e906c782e249af81
+      internalID: -7481939760970943051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_35
+      name: turn_synaps_bump_35
       rect:
         serializedVersion: 2
         x: 384
@@ -1058,14 +1047,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecaefcfbe4198944ba61b864cf4ae0f9
-      internalID: 3840556320200458740
+      spriteID: 53b9adf352043094d95477d8ccb2da75
+      internalID: -4625561882387714643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_36
+      name: turn_synaps_bump_36
       rect:
         serializedVersion: 2
         x: 512
@@ -1079,14 +1068,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dfa5555ee33895408afad8a2d647f7a
-      internalID: -6571184052047290967
+      spriteID: 6caa1bd878aa7b84383c3b07cb570f9d
+      internalID: 4808552112150652720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_37
+      name: turn_synaps_bump_37
       rect:
         serializedVersion: 2
         x: 640
@@ -1100,14 +1089,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 547a267da1318b3409303886f704cd98
-      internalID: -3466965407876337444
+      spriteID: c7b5eb77ca5c2724784b3cc50fa0453a
+      internalID: 918841967442072877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_38
+      name: turn_synaps_bump_38
       rect:
         serializedVersion: 2
         x: 768
@@ -1121,14 +1110,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e581e1c2a53ca1449be737fc87fcfbd9
-      internalID: 7267403390136372838
+      spriteID: 076bd7bd0904a8f4cb3f65a85bacadea
+      internalID: -5440513342659724885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_39
+      name: turn_synaps_bump_39
       rect:
         serializedVersion: 2
         x: 896
@@ -1142,14 +1131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 372f9dfdc1063684287b89118c2ac6cf
-      internalID: 5376123308943074651
+      spriteID: 2ff3d9d11d0d7c64dadc876b00f98d09
+      internalID: 8747381401765959506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_40
+      name: turn_synaps_bump_40
       rect:
         serializedVersion: 2
         x: 0
@@ -1163,14 +1152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39a86276afc347a4abb65ff4f926b800
-      internalID: -4429685635602825366
+      spriteID: a910eb53b0666b940b1e5bdcac273ba4
+      internalID: 424317654250830969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_41
+      name: turn_synaps_bump_41
       rect:
         serializedVersion: 2
         x: 128
@@ -1184,14 +1173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23db111548e9f5448aeb05b8565a44d5
-      internalID: -8729925260170129668
+      spriteID: 543873bb43812fe4ca01f8fd144577a5
+      internalID: -2158647876578919731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_42
+      name: turn_synaps_bump_42
       rect:
         serializedVersion: 2
         x: 256
@@ -1205,14 +1194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff645ff9e99120343936f943b2f28a14
-      internalID: 3310907337137921739
+      spriteID: 6eeb321bd5747454b83b44d24f251180
+      internalID: 4817034929159147855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_43
+      name: turn_synaps_bump_43
       rect:
         serializedVersion: 2
         x: 384
@@ -1226,14 +1215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50f9c04b755aa484cbd18c3e49f6ccc5
-      internalID: 5636935127078116063
+      spriteID: 884e766006f6b3e4bb131e47b3c0c352
+      internalID: 1346855043204912002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_44
+      name: turn_synaps_bump_44
       rect:
         serializedVersion: 2
         x: 512
@@ -1247,14 +1236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57ca66a4d52e1a84092f9eb2a0c6471f
-      internalID: -3362152557278127508
+      spriteID: e1381ef5a3c400046a1f42dc4662b835
+      internalID: -881703978435493439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_45
+      name: turn_synaps_bump_45
       rect:
         serializedVersion: 2
         x: 640
@@ -1268,14 +1257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a3fd7592da8583488e368f452a4f4c7
-      internalID: 4148202656779488136
+      spriteID: eb30b069f2fc15f4fbda99ffafce0b65
+      internalID: 4097798606128265401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_46
+      name: turn_synaps_bump_46
       rect:
         serializedVersion: 2
         x: 768
@@ -1289,14 +1278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 988e1066da5951244af4d809fbdc07ee
-      internalID: 6688573598765110203
+      spriteID: ba9fa5a52b63daa45b20028cd0115504
+      internalID: 3649289243017447024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_47
+      name: turn_synaps_bump_47
       rect:
         serializedVersion: 2
         x: 896
@@ -1310,14 +1299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 152eabb8632853d4eb584830b96ff457
-      internalID: -2464646609111118804
+      spriteID: 036ef27123303844583ef5b420da2474
+      internalID: -8790100260466101365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_48
+      name: turn_synaps_bump_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1331,14 +1320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06500c13e762a864cb95f74075e411ff
-      internalID: 1096272526942023182
+      spriteID: 898fcc88e4350d745ae706e4c87b967d
+      internalID: -908666417615973709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_49
+      name: turn_synaps_bump_49
       rect:
         serializedVersion: 2
         x: 128
@@ -1352,14 +1341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8f4c82ccccf3c841be0d1979103625b
-      internalID: 3801034745788940700
+      spriteID: a1ac57dd09bb00346b317a65377a62d7
+      internalID: 6030446861532795165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_50
+      name: turn_synaps_bump_50
       rect:
         serializedVersion: 2
         x: 256
@@ -1373,14 +1362,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0490d46a5477c3043ba4a3089b82661e
-      internalID: -6632257402196853047
+      spriteID: 18c9f4edcf1ffd3459baa61acf3d2cbb
+      internalID: -2221113592347003395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_51
+      name: turn_synaps_bump_51
       rect:
         serializedVersion: 2
         x: 384
@@ -1394,14 +1383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38894f19d658f1641980f454355968b7
-      internalID: 4850766691557260852
+      spriteID: 1c31edcc02fb2274a95185189e2dd781
+      internalID: 190204088749840491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_52
+      name: turn_synaps_bump_52
       rect:
         serializedVersion: 2
         x: 512
@@ -1415,14 +1404,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e4847ee1c5cc3249b27f2c46259a05f
-      internalID: -844713778558991717
+      spriteID: 54df7cc15c4cdee4bbdb75211d7feb74
+      internalID: -3094199090813156263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_53
+      name: turn_synaps_bump_53
       rect:
         serializedVersion: 2
         x: 640
@@ -1436,14 +1425,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29637d5fcf95e3c43853cfc727b0a37e
-      internalID: 7186713124027016101
+      spriteID: c2405c1c6724ccb428b778a16b87ca14
+      internalID: -1109088010627864510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_54
+      name: turn_synaps_bump_54
       rect:
         serializedVersion: 2
         x: 768
@@ -1457,14 +1446,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6534269b2c6ca540b09d85832ec0ddb
-      internalID: -6609797851317232485
+      spriteID: ea716bd200365fc44b7af21a42db6762
+      internalID: -2939040305876727165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_55
+      name: turn_synaps_bump_55
       rect:
         serializedVersion: 2
         x: 896
@@ -1478,14 +1467,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e80bbbf97b9e33428023cd527006c07
-      internalID: 4502292129523224949
+      spriteID: 2a804c594e501c1499b9e0247a368086
+      internalID: 2739761925538229644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_56
+      name: turn_synaps_bump_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1499,14 +1488,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2792aa686105004aa8e0d00bfe8685d
-      internalID: 6298862101421829768
+      spriteID: 438c0a6ee79f2c2489c4ad5ed94ba8b7
+      internalID: 8057586169872305315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_57
+      name: turn_synaps_bump_57
       rect:
         serializedVersion: 2
         x: 128
@@ -1520,14 +1509,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 934cc0960659f014ea92ec0ab5670514
-      internalID: -7854145399731856079
+      spriteID: 9dac2f99c0e9b93478347e04c6275484
+      internalID: 4442825162221746616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_58
+      name: turn_synaps_bump_58
       rect:
         serializedVersion: 2
         x: 256
@@ -1541,14 +1530,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 778ec2395c2757144b554422c71b81f0
-      internalID: -582664582565389088
+      spriteID: 5c707db2763c4ba40aa20d7e7a3fed3c
+      internalID: 7023448379664837346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_59
+      name: turn_synaps_bump_59
       rect:
         serializedVersion: 2
         x: 384
@@ -1562,14 +1551,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ecf3970e95b4894391d78aa0123e362
-      internalID: 5712299074522517694
+      spriteID: b699c9632f3c2fd40a19b0bac2da919d
+      internalID: -6085398972696985838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_60
+      name: turn_synaps_bump_60
       rect:
         serializedVersion: 2
         x: 512
@@ -1583,14 +1572,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0907b6fb57221742a36c8bf3d5edcfb
-      internalID: -1032336409675018979
+      spriteID: 1516a0102cfc9d94d8810c50f1f86ec4
+      internalID: 6787410212180963403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_61
+      name: turn_synaps_bump_61
       rect:
         serializedVersion: 2
         x: 640
@@ -1604,14 +1593,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1dbdf6cc431ce8429c6c53db26d14dc
-      internalID: -7008195840921163893
+      spriteID: 281ce84be16915e448a03c0e9a7fd319
+      internalID: 5328611110421660394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_62
+      name: turn_synaps_bump_62
       rect:
         serializedVersion: 2
         x: 768
@@ -1625,14 +1614,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aacb738a75e7684ca93291d7d235666
-      internalID: 2426506734872649897
+      spriteID: 51cc0ffd38b993b448ee56d15f52553f
+      internalID: 2899989596047593216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: turn_synaps_63
+      name: turn_synaps_bump_63
       rect:
         serializedVersion: 2
         x: 896
@@ -1646,8 +1635,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 608290da87b72cc47836c09854cd0135
-      internalID: 2223105707776816869
+      spriteID: c57cbd6a2e70f404f9aa338a59e04a65
+      internalID: 8692189663847601199
       vertices: []
       indices: 
       edges: []
@@ -1655,7 +1644,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: fc9c513539843e545a7dbb2f4265502a
+    spriteID: 529a3f4fcfe892944ad960daed67d9b7
     internalID: 0
     vertices: []
     indices: 
