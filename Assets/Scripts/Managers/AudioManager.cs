@@ -36,7 +36,7 @@ public class AudioManager : MonoBehaviour {
 
     private void Start()
     {
-
+        Play("Ambiance");
     }
 
     // Update is called once per frame
