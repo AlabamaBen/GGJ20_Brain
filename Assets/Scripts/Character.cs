@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-
-    public Animator footstep;
     private Animator characterAnimator;
     public GameObject characterSprite;
     [SerializeField]
@@ -125,13 +123,10 @@ public class Character : MonoBehaviour
             {
                 control = airControl;
                 AudioManager.instance.Stop("walk");
-
-                footstep.SetBool("isWalking", false);
             }
             else if (isGrounded)
             {
                 AudioManager.instance.Play("walk");
-                footstep.SetBool("isWalking", true);
             }
 
             if (Mathf.Abs(v.x) < maxSpeed)
