@@ -75,7 +75,6 @@ public class Camera_Manager : MonoBehaviour
 
     public void Change_Room(GameObject new_room)
     {
-        Debug.Log("New room is " + new_room.name);
         Room_Behaviour room = new_room.GetComponent<Room_Behaviour>();
 
         Current_Room = new_room;
