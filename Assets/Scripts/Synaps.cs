@@ -18,6 +18,7 @@ public class Synaps : MonoBehaviour
         {
             animator.SetTrigger("Activate");
             isActivate = true;
+            AudioManager.instance.Play("synaps");
         }
     }
 

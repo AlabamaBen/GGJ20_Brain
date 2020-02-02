@@ -415,11 +415,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5902129368461193359, guid: 0690bb067c9570744a66acf1b4d693fc,
-        type: 3}
-      propertyPath: m_Name
-      value: corner_wall
-      objectReference: {fileID: 0}
     - target: {fileID: 835734086351814436, guid: 0690bb067c9570744a66acf1b4d693fc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -489,6 +484,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.81586
+      objectReference: {fileID: 0}
+    - target: {fileID: 5902129368461193359, guid: 0690bb067c9570744a66acf1b4d693fc,
+        type: 3}
+      propertyPath: m_Name
+      value: corner_wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0690bb067c9570744a66acf1b4d693fc, type: 3}
@@ -1185,11 +1185,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 380708986}
     m_Modifications:
-    - target: {fileID: 4402726891615419383, guid: 798dc79fdade3a649b4d03e83c3634e4,
-        type: 3}
-      propertyPath: m_Name
-      value: Plateform_sliding (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2534775983625302408, guid: 798dc79fdade3a649b4d03e83c3634e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1249,6 +1244,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402726891615419383, guid: 798dc79fdade3a649b4d03e83c3634e4,
+        type: 3}
+      propertyPath: m_Name
+      value: Plateform_sliding (4)
       objectReference: {fileID: 0}
     - target: {fileID: 4126026809987356441, guid: 798dc79fdade3a649b4d03e83c3634e4,
         type: 3}
@@ -3687,11 +3687,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 380708986}
     m_Modifications:
-    - target: {fileID: 4402726891615419383, guid: be0d7dc661e083b439385fc038d85064,
-        type: 3}
-      propertyPath: m_Name
-      value: Plateform (16)
-      objectReference: {fileID: 0}
     - target: {fileID: 2534775983625302408, guid: be0d7dc661e083b439385fc038d85064,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3751,6 +3746,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402726891615419383, guid: be0d7dc661e083b439385fc038d85064,
+        type: 3}
+      propertyPath: m_Name
+      value: Plateform (16)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0d7dc661e083b439385fc038d85064, type: 3}
@@ -4714,6 +4714,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5430146718634858456, guid: 3cc6ad1fc51de1a4daad5d06cba14f7e,
+        type: 3}
+      propertyPath: sounds.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: c3d036ff4e0a73548882e62d71f8bb73, type: 3}
+    - target: {fileID: 5430146718634858456, guid: 3cc6ad1fc51de1a4daad5d06cba14f7e,
+        type: 3}
+      propertyPath: sounds.Array.data[5].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: dd5fa8234718f784999c846d26a6f7be, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cc6ad1fc51de1a4daad5d06cba14f7e, type: 3}
 --- !u!4 &1594388007 stripped
@@ -5002,11 +5012,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 380708986}
     m_Modifications:
-    - target: {fileID: 4402726891615419383, guid: be0d7dc661e083b439385fc038d85064,
-        type: 3}
-      propertyPath: m_Name
-      value: Plateform (17)
-      objectReference: {fileID: 0}
     - target: {fileID: 2534775983625302408, guid: be0d7dc661e083b439385fc038d85064,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5066,6 +5071,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402726891615419383, guid: be0d7dc661e083b439385fc038d85064,
+        type: 3}
+      propertyPath: m_Name
+      value: Plateform (17)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0d7dc661e083b439385fc038d85064, type: 3}

@@ -122,6 +122,11 @@ public class Character : MonoBehaviour
             if (!isGrounded)
             {
                 control = airControl;
+                AudioManager.instance.Stop("walk");
+            }
+            else if (isGrounded)
+            {
+                AudioManager.instance.Play("walk");
             }
 
             if (Mathf.Abs(v.x) < maxSpeed)
@@ -163,7 +168,7 @@ public class Character : MonoBehaviour
             rb.AddForce(Vector2.up * jumpValue, ForceMode2D.Impulse);
 
 
-            AudioManager.instance.Play("Jump");
+            AudioManager.instance.Play("jump");
         }
     }
 
@@ -176,7 +181,7 @@ public class Character : MonoBehaviour
         characterAnimator.SetTrigger("Jump");
         rb.AddForce(Vector2.up * jumpValue, ForceMode2D.Impulse);
 
-        AudioManager.instance.Play("Jump");
+        AudioManager.instance.Play("bumper");
     }
 
     private bool IsGrounded(Rigidbody2D MyRigidbody)
@@ -218,7 +223,7 @@ public class Character : MonoBehaviour
                 checkLand = true;
                 characterAnimator.SetBool("Land", false);
                 Camera_Manager.instance.ShakeCamera(Camera_Manager.ShakeCamType.LandShake);
-                AudioManager.instance.Play("Land");
+                AudioManager.instance.Play("land");
                 mustLand = false;
             }
             if (returnTrue) return true;
