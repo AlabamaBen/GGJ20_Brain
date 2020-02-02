@@ -35,6 +35,7 @@ public class Clock_Behvaiour : MonoBehaviour
     void Tick()
     {
 
+
         current_color = (Plateform_Color)((int)(current_color + 1) % 3) ;
 
 
@@ -42,6 +43,7 @@ public class Clock_Behvaiour : MonoBehaviour
 
         Pick02.transform.rotation = Quaternion.Euler(0f, 0f, (360 / 3) * -((int)current_color));
 
+        Debug.Log(current_color);
 
 
         foreach (GameObject plateform in Platefroms)
