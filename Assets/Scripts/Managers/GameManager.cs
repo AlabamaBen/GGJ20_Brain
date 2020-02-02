@@ -30,7 +30,6 @@ public class GameManager : MonoBehaviour
         //Pause game
         if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("Start")) && !SceneManager.GetActiveScene().name.Equals("Menu"))
         {
-            Debug.Log("d");
             if (!gameOnPause)
             {
                 PauseGame();           
@@ -68,7 +67,7 @@ public class GameManager : MonoBehaviour
     //Start a new game
     public void StartNewGame()
     {
-        SceneManager.LoadScene("Annelyse", LoadSceneMode.Single);
+        SceneManager.LoadScene("FINAL", LoadSceneMode.Single);
         Time.timeScale = 1;
     }
 

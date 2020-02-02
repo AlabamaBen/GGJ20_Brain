@@ -14,9 +14,6 @@ public class Character : MonoBehaviour
 
     private Vector2 direction;
 
-    private bool isJumping;
-
-
     [SerializeField]
     private RuntimeAnimatorController aController;
 
@@ -28,7 +25,7 @@ public class Character : MonoBehaviour
 
     protected bool isFacingRight;
 
-    public Camera_Manager camera;
+    public Camera_Manager characterCamera;
 
     private bool mustLand;
 
@@ -52,6 +49,7 @@ public class Character : MonoBehaviour
 
     private bool isGrounded;
     private bool canJump;
+    private bool isJumping = false;
 
     //Inputs
     float horizontal;
@@ -241,7 +239,7 @@ public class Character : MonoBehaviour
 
     public void Die()
     {
-        transform.position = camera.Current_Room.GetComponent<Room_Behaviour>().Respawn_Point.transform.position;
+        transform.position = characterCamera.Current_Room.GetComponent<Room_Behaviour>().Respawn_Point.transform.position;
         //Camera_Manager.instance.ShakeCamera(Camera_Manager.ShakeCamType.DeathShake);
 
     }
