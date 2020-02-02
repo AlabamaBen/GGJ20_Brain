@@ -28,6 +28,7 @@ public class Character : MonoBehaviour
     public Camera_Manager camera;
 
     private bool mustLand;
+    private bool checkLand;
 
     //private Shake shake;
 
@@ -82,7 +83,7 @@ public class Character : MonoBehaviour
 
         v = HandleMovementAcceleration(horizontal, v, isGrounded);
 
-        if (v.y < -0.2)
+        if (v.y < -0.2 && !checkLand)
         {
             characterAnimator.SetBool("Land", true);
         }
@@ -202,7 +203,7 @@ public class Character : MonoBehaviour
 
                         characterAnimator.ResetTrigger("Jump");
 
-                        if (characterAnimator.GetBool("Land"))
+                        if (characterAnimator.GetBool("Land")== true)
                         {   
                             mustLand = true;
                             
@@ -212,17 +213,19 @@ public class Character : MonoBehaviour
                     }
                 }
             }
-            if (mustLand == true)
+            if (mustLand == true && returnTrue)
             {
-                //Debug.Log("COUCOU");
+                checkLand = true;
+                Debug.Log("COUCOU");
                 characterAnimator.SetBool("Land", false);
-                //Camera_Manager.instance.ShakeCamera(Camera_Manager.ShakeCamType.LandShake);
+                Camera_Manager.instance.ShakeCamera(Camera_Manager.ShakeCamType.LandShake);
                 AudioManager.instance.Play("Land");
                 mustLand = false;
             }
             if (returnTrue) return true;
         }
         this.transform.SetParent(null);
+        checkLand = false;
         return false;
     }
 
