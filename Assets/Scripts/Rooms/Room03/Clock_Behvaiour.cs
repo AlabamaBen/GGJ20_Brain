@@ -24,7 +24,6 @@ public class Clock_Behvaiour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         current_color = 0;
         InvokeRepeating("Tick", Frequency, Frequency);
         Platefroms = new List<GameObject>();
