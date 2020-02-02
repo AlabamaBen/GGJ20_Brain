@@ -7,6 +7,15 @@ public class Clock_Behvaiour : MonoBehaviour
     public GameObject Pick01;
     public GameObject Pick02;
 
+    public SpriteRenderer Panel1;
+    public SpriteRenderer Panel2;
+
+    public Sprite spriteblue;
+    public Sprite spritegreen;
+    public Sprite spritered;
+
+
+
     private List<GameObject> Platefroms; 
 
     Plateform_Color current_color; 
@@ -59,5 +68,29 @@ public class Clock_Behvaiour : MonoBehaviour
             }
         }
 
+        if (GameManager.Gm.ColorActivated)
+        {
+            switch (current_color)
+            {
+                case Plateform_Color.green:
+                    Panel1.sprite = spritegreen;
+                    Panel2.sprite = spritegreen;
+                    break;
+                case Plateform_Color.red:
+                    Panel1.sprite = spritered;
+                    Panel2.sprite = spritered;
+                    break;
+                case Plateform_Color.blue:
+                    Panel1.sprite = spriteblue;
+                    Panel2.sprite = spriteblue;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+
+
     }
+
 }
