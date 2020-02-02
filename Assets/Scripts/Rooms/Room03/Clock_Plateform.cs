@@ -5,10 +5,9 @@ using UnityEngine;
 
 
 public enum Plateform_Color{
-    blue,
+    green,
     red,
-    green
-
+    blue
 }
 
 public class Clock_Plateform : MonoBehaviour
