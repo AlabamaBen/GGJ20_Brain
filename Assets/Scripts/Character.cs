@@ -216,7 +216,6 @@ public class Character : MonoBehaviour
             if (mustLand == true && returnTrue)
             {
                 checkLand = true;
-                Debug.Log("COUCOU");
                 characterAnimator.SetBool("Land", false);
                 Camera_Manager.instance.ShakeCamera(Camera_Manager.ShakeCamType.LandShake);
                 AudioManager.instance.Play("Land");
