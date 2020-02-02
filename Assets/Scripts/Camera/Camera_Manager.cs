@@ -14,7 +14,7 @@ public class Camera_Manager : MonoBehaviour
 
     public float Camera_Offset = 4f;
     public enum ShakeCamType { LandShake,DeathShake, UnlockShake};
-    private Animator cameraAnimator;
+    //private Animator cameraAnimator;
 
     void Awake()
     {
@@ -34,7 +34,7 @@ public class Camera_Manager : MonoBehaviour
         target = Default_Room.GetComponent<Room_Behaviour>().Camera_Position;
 
         following = false;
-        cameraAnimator = GetComponent<Animator>();
+        //cameraAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -91,9 +91,10 @@ public class Camera_Manager : MonoBehaviour
             following = false;
         }
     }
-
+    /*
     public void ShakeCamera(ShakeCamType shakeCamType)
     {
         cameraAnimator.SetTrigger(shakeCamType.ToString());
     }
+    */
 }

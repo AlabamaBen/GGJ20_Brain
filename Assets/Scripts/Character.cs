@@ -217,7 +217,7 @@ public class Character : MonoBehaviour
             if (mustLand == true)
             {
                 characterAnimator.SetBool("Land", false);
-                Camera_Manager.instance.ShakeCamera(Camera_Manager.ShakeCamType.LandShake);
+                //Camera_Manager.instance.ShakeCamera(Camera_Manager.ShakeCamType.LandShake);
                 AudioManager.instance.Play("Land");
                 mustLand = false;
             }
@@ -242,7 +242,7 @@ public class Character : MonoBehaviour
     public void Die()
     {
         transform.position = camera.Current_Room.GetComponent<Room_Behaviour>().Respawn_Point.transform.position;
-        Camera_Manager.instance.ShakeCamera(Camera_Manager.ShakeCamType.DeathShake);
+        //Camera_Manager.instance.ShakeCamera(Camera_Manager.ShakeCamType.DeathShake);
 
     }
 }
