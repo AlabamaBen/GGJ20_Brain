@@ -30,6 +30,8 @@ public class Character : MonoBehaviour
 
     public Camera_Manager camera;
 
+    private bool mustLand;
+
     //private Shake shake;
 
     //Other movements variables
@@ -180,9 +182,9 @@ public class Character : MonoBehaviour
 
     private bool IsGrounded(Rigidbody2D MyRigidbody)
     {
+        bool returnTrue=false;
         if (MyRigidbody.velocity.y <= 0.2)
         {
-            //MyRigidbody.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
             foreach (Transform point in groundPoints)
             {
                 //Gets the colliders on the player's feet
@@ -190,7 +192,6 @@ public class Character : MonoBehaviour
 
                 for (int i = 0; i < colliders.Length; i++)
                 {
-                    Debug.Log(colliders.Length);
                     if (colliders[i].gameObject != gameObject && (colliders[i].gameObject.CompareTag("Floor")))
                     {
                         if (colliders[i].gameObject.GetComponent<PlatformSliding>() != null)
@@ -204,14 +205,23 @@ public class Character : MonoBehaviour
                         characterAnimator.ResetTrigger("Jump");
 
                         if (characterAnimator.GetBool("Land"))
-                        {
-                            characterAnimator.SetBool("Land", false);
-                            AudioManager.instance.Play("Land");
+                        {   
+                            mustLand = true;
+                            
                         }
-                        return true;
+                        returnTrue = true;
+                        
                     }
                 }
             }
+            if (mustLand == true)
+            {
+                characterAnimator.SetBool("Land", false);
+                Camera_Manager.instance.ShakeCamera(Camera_Manager.ShakeCamType.LandShake);
+                AudioManager.instance.Play("Land");
+                mustLand = false;
+            }
+            if (returnTrue) return true;
         }
         this.transform.SetParent(null);
         return false;
@@ -232,6 +242,8 @@ public class Character : MonoBehaviour
     public void Die()
     {
         transform.position = camera.Current_Room.GetComponent<Room_Behaviour>().Respawn_Point.transform.position;
+        Camera_Manager.instance.ShakeCamera(Camera_Manager.ShakeCamType.DeathShake);
+
     }
 }
 

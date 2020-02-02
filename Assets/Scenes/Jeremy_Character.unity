@@ -219,21 +219,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9150809748436887165, guid: eff884d184300dd45b45be5df9a28dd8,
-        type: 3}
-      propertyPath: airControl
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9150809748436887165, guid: eff884d184300dd45b45be5df9a28dd8,
-        type: 3}
-      propertyPath: jumpForce
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 4759179133174301564, guid: eff884d184300dd45b45be5df9a28dd8,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 22e756850d9024045bb0c4de3506b2c3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eff884d184300dd45b45be5df9a28dd8, type: 3}
 --- !u!1001 &427619274
@@ -316,6 +301,8 @@ GameObject:
   - component: {fileID: 722091129}
   - component: {fileID: 722091128}
   - component: {fileID: 722091127}
+  - component: {fileID: 722091130}
+  - component: {fileID: 722091131}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -388,6 +375,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &722091130
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722091126}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d5fb908b66eaf6549a753d8de13ca3c3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &722091131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722091126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a7689c8236242648b1ba737040fc5b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Default_Room: {fileID: 0}
+  Current_Room: {fileID: 0}
+  Character: {fileID: 1470443242}
+  Camera_Offset: 4
 --- !u!1 &808858567
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,6 +896,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1470443242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9150809748436887162, guid: eff884d184300dd45b45be5df9a28dd8,
+    type: 3}
+  m_PrefabInstance: {fileID: 252626283}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1831452411
 GameObject:
   m_ObjectHideFlags: 0

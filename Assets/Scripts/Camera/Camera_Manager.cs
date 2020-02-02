@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Camera_Manager : MonoBehaviour
 {
-
+    public static Camera_Manager instance = null;
     public GameObject Default_Room;
     private GameObject target;
     public GameObject Current_Room;
@@ -13,14 +13,28 @@ public class Camera_Manager : MonoBehaviour
     private bool following;
 
     public float Camera_Offset = 4f;
-    
+    public enum ShakeCamType { LandShake,DeathShake, UnlockShake};
+    private Animator cameraAnimator;
+
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         target = Default_Room.GetComponent<Room_Behaviour>().Camera_Position;
 
-        following = false; 
+        following = false;
+        cameraAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -76,5 +90,10 @@ public class Camera_Manager : MonoBehaviour
             target = room.Camera_Position;
             following = false;
         }
+    }
+
+    public void ShakeCamera(ShakeCamType shakeCamType)
+    {
+        cameraAnimator.SetTrigger(shakeCamType.ToString());
     }
 }

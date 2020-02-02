@@ -90,7 +90,7 @@ Animator:
   m_GameObject: {fileID: 949471273}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 22e756850d9024045bb0c4de3506b2c3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -201,7 +201,8 @@ MonoBehaviour:
   aController: {fileID: 0}
   landPrefab: {fileID: 0}
   jumpPrefab: {fileID: 0}
-  jumpForce: 25
+  camera: {fileID: 0}
+  jumpForce: 30
   groundPoints:
   - {fileID: 9150809749635816960}
   - {fileID: 9150809749140066775}
@@ -210,7 +211,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  airControl: 0.8
+  airControl: 0.2
 --- !u!1 &9150809749140066774
 GameObject:
   m_ObjectHideFlags: 0
