@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2714259031003387564}
   - component: {fileID: 2714259031003387565}
   m_Layer: 0
-  m_Name: Platform_medium
+  m_Name: Platform1_medium
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,7 +68,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.94978815, y: 0.37453628}
+  m_Offset: {x: -0.9497881, y: 0.42735243}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -79,7 +79,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.7977314, y: 0.20410967}
+  m_Size: {x: 3.7977314, y: 0.09847736}
   m_EdgeRadius: 0
 --- !u!1 &2714259031557381544
 GameObject:
