@@ -7,7 +7,7 @@ Panneau LD Hub :
 
 Panneau Enigme LD 2.2 :
 
-"Climb up, go right, then down and forward.
+"Climb up, go all the left, then down and backward.
 Imitate this movement, and the way will reveal itself."
 
 Panneau Enigme 3.1 :
