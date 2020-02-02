@@ -66,6 +66,7 @@ public class Room4_Behaviour : MonoBehaviour
                 if(Last_Crystal == null)
                 {
                     Crystal_01.GetComponent<Crystal_Behviour>().SetActive(true);
+                    AudioManager.instance.Play("cristalOn");
                     Last_Crystal = Crystal_01;
                 }
                 else
@@ -82,6 +83,7 @@ public class Room4_Behaviour : MonoBehaviour
                 if (Last_Crystal == Crystal_01)
                 {
                     Crystal_02.GetComponent<Crystal_Behviour>().SetActive(true);
+                    AudioManager.instance.Play("cristalOn");
                     Last_Crystal = Crystal_02;
                 }
                 else
@@ -98,6 +100,8 @@ public class Room4_Behaviour : MonoBehaviour
                 if (Last_Crystal == Crystal_02)
                 {
                     Crystal_03.GetComponent<Crystal_Behviour>().SetActive(true);
+                    AudioManager.instance.Play("cristalOn");
+
                     Last_Crystal = Crystal_03;
                 }
                 else
@@ -113,6 +117,8 @@ public class Room4_Behaviour : MonoBehaviour
                 if (Last_Crystal == Crystal_03)
                 {
                     Crystal_04.GetComponent<Crystal_Behviour>().SetActive(true);
+                    AudioManager.instance.Play("cristalOn");
+
                     Last_Crystal = Crystal_04;
                     GameManager.Gm.ReadActivated = true;
                     Door.SetActive(false);
@@ -121,6 +127,7 @@ public class Room4_Behaviour : MonoBehaviour
                 else
                 {
                     Reset_Crystals();
+                  
                 }
                 Crystal_Cooldown = true;
                 Invoke("Reset_Crystal_Cooldown", 2f);
@@ -141,5 +148,6 @@ public class Room4_Behaviour : MonoBehaviour
         Crystal_02.GetComponent<Crystal_Behviour>().SetActive(false);
         Crystal_03.GetComponent<Crystal_Behviour>().SetActive(false);
         Crystal_04.GetComponent<Crystal_Behviour>().SetActive(false);
+        AudioManager.instance.Play("cristalOff");
     }
 }

@@ -69,8 +69,14 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 78804da6cff81f348a3f8cb1fdec1a11, type: 3}
-    name: cristal
-    volume: 1
+    name: cristalOn
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 6aaf7c27f8a8325409b80fcd080db277, type: 3}
+    name: cristalOff
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
