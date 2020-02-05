@@ -56,6 +56,9 @@ public class Character : MonoBehaviour
     float horizontal;
     bool jumpButton;
 
+    [SerializeField]
+    GameObject footstepFX;
+
     public void Start()
     {
         characterAnimator = characterSprite.GetComponent<Animator>();
@@ -123,10 +126,12 @@ public class Character : MonoBehaviour
             {
                 control = airControl;
                 AudioManager.instance.Stop("walk");
+                footstepFX.SetActive(false);
             }
             else if (isGrounded)
             {
                 AudioManager.instance.Play("walk");
+                footstepFX.SetActive(true);
             }
 
             if (Mathf.Abs(v.x) < maxSpeed)
@@ -142,6 +147,7 @@ public class Character : MonoBehaviour
         else
         {
             v.x = 0;
+            footstepFX.SetActive(false);
         }
 
         characterAnimator.SetFloat("MoveSpeed", Mathf.Abs(horizontal));
@@ -166,7 +172,6 @@ public class Character : MonoBehaviour
             this.transform.SetParent(null);
             characterAnimator.SetTrigger("Jump");
             rb.AddForce(Vector2.up * jumpValue, ForceMode2D.Impulse);
-
 
             AudioManager.instance.Play("jump");
         }
